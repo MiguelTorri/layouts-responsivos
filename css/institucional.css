@@ -10,7 +10,7 @@
     padding-bottom: 2rem;
 }
 
-.institucional__titulo {
+.institucional_titulo {
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
     font-size: 1.5rem;
@@ -21,34 +21,34 @@
     margin-bottom: 2rem;
 }
 
-.institucional__descripcion {
+.institucional_descripcion {
     margin-bottom: 2rem;
 }
 
-.institucional__direccion {
+.institucional_direccion {
     font-size: 1.5rem;
     line-height: normal;
 
     margin-bottom: 2rem;
 }
 
-.institucional__contacto {
+.institucional_contacto {
     font-size: 1.2rem;
     line-height: 1.8;
 
     margin-top: 2rem;
 }
 
-.institucional__contacto-telefono {
+.institucional_contacto-telefono {
     line-height: normal;
 }
 
-.institucional__contacto-email {
+.institucional_contacto-email {
     color: var(--fuente-ceniza-oscuro);
     text-decoration: underline;
     display: block;
 }
 
-.institucional__video {
+.institucional_video {
     width: 100vw;
 }
