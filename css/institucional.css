@@ -34,7 +34,7 @@
 
 .institucional_contacto {
     font-size: 1.2rem;
-    line-height: 1.8;
+    line-height: 3;
 
     margin-top: 2rem;
 }
@@ -51,4 +51,32 @@
 
 .institucional_video {
     width: 100vw;
+}
+
+@media screen and (min-width: 768px){
+    .institucional_contacto-email{
+        display: inline-block;
+    }
+    .institucional_video{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional_contenido {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .institucional_video {
+        align-self: flex-end;
+
+        width: 375px;
+    }
+
+    .institucional_contacto-email {
+        display: block;
+    }
 }
